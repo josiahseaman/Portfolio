@@ -16,6 +16,11 @@ h2 {
     font-weight: 400;
 }
 
+a,
+.showcase a {
+    color: inherit;
+}
+
 .header {
     border-bottom: 3px solid lightgrey;
     margin-bottom: 10px;
@@ -37,15 +42,22 @@ h2 {
     color: rgb(205, 205, 205);
 }
 
-
-
 .showcase img {
     height: 200px;
+}
+
+.showcase p {
+    font-size: 14px;
 }
 
 nav {
     margin-top: 100px;
     width: 110px;
+}
+
+nav img {
+    max-height:87px;
+    margin-top:17px;
 }
 
 @media screen and (max-width:992px) {
