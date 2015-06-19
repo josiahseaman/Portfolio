@@ -60,12 +60,21 @@ nav img {
     margin-top:17px;
 }
 
+nav ul {
+    list-style: none;
+}
+
 @media screen and (max-width:992px) {
-    nav {
-        display: none;
+    nav,
+    nav ul {
+        width: 100%;
     }
-    .logo{
-        /*display: none;*/
+
+    nav a,
+    nav li {
+        width: 33%;
+        display: inline-block;
     }
+
 }
 
