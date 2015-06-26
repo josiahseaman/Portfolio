@@ -21,6 +21,7 @@ a,
     color: inherit;
 }
 
+/******header******/
 .header {
     border-bottom: 3px solid lightgrey;
     margin-bottom: 10px;
@@ -29,14 +30,17 @@ a,
 .header img {
     margin-top: 10px;
     max-height: 80px;
-
 }
 
-/*header*/
 .about {
     margin: 10px 5px 10px 5px;
 }
 
+.about li {
+    list-style-type:square;
+}
+
+/********Showacase**********/
 .showcase h2 {
     text-align: left;
     color: rgb(205, 205, 205);
@@ -64,6 +68,7 @@ nav ul {
     list-style: none;
 }
 
+/****** < md breakpoint ********/
 @media screen and (max-width:992px) {
     nav,
     nav ul {
