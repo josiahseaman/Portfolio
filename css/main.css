@@ -1,5 +1,5 @@
 
-* {
+body {
     font-family: 'Exo', Helvetica, sans-serif;
     font-size: 18px;
     /*border: 1px solid lightgrey !important;  /!*just to see the layout *!/*/
@@ -12,12 +12,12 @@
 }
 
 h2 {
+    text-align: left;
     color: grey;
     font-weight: 400;
 }
 
-a,
-.showcase a {
+a {
     color: inherit;
 }
 
@@ -27,7 +27,7 @@ a,
     margin-bottom: 10px;
 }
 
-.header img {
+.logo {
     margin-top: 10px;
     max-height: 80px;
 }
@@ -36,21 +36,16 @@ a,
     margin: 10px 5px 10px 5px;
 }
 
-.about li {
+.square-list {
     list-style-type: square;
 }
 
 /********Showacase**********/
-.showcase h2 {
-    text-align: left;
-    color: rgb(205, 205, 205);
-}
-
-.showcase img {
+.showcase-img {
     height: 200px;
 }
 
-.showcase p {
+.showcase {
     font-size: 14px;
 }
 
@@ -59,7 +54,7 @@ nav {
     width: 110px;
 }
 
-nav img {
+.contact-icon {
     max-height: 87px;
     margin-top: 17px;
 }
